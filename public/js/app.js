@@ -20,7 +20,7 @@
           if(data.error){
               return messageOne.textContent=data.error
           }
-          messageTwo.textContent=('Temperature:'+ data.temperature +'Feels Like:'+ data.feels_like)
+          messageTwo.textContent=('Temperature:'+ data.temperature +'Feels Like:'+ data.feels_like+'Observation time is'+data.observation_time)
       })
   })
   })
