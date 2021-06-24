@@ -69,7 +69,8 @@ app.get('/weather',(req,res)=>{
 
             res.send({
                 temperature:forecastResponse.temperature,
-                feels_like:forecastResponse.feels_like
+                feels_like:forecastResponse.feels_like,
+                observation_time:forecastResponse.observation_time
             })
         })
     })
